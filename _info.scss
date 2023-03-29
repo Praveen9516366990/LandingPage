@@ -1,0 +1,41 @@
+.flex-box{
+    display: flex;
+    justify-content: space-between;
+}
+.more{
+    width: 100px;
+    height: 45px;
+    border: 0;
+    background-color: $primary-color;
+    color: $white-col;
+    font-family: $primary-font;
+    font-size: 1.1rem;
+    font-weight: 400;
+}
+.info{
+    section{
+        width: 30%;
+        padding: 20px;
+
+        h2{
+            font-weight: 300;
+            margin-bottom: 1.5rem;
+            line-height: 2rem ;
+            color: $primary-color;
+        }
+        p{
+          font-weight: 300;
+          margin-bottom: 1.2rem;
+          line-height: 2rem ;
+          color: grey;
+        }
+        hr{
+            width: 0.5px;
+            height: auto;
+            border: none;
+            background-color: #dfdfdf;
+            
+        }
+    }
+    
+}

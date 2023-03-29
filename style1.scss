@@ -1,0 +1,29 @@
+// Variables
+$primary-font :'railway', sans-serif;
+$primary-color:#4e82be;
+$white-col:#fff;
+$black-col:#000;
+@mixin flex_propert{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: $primary-font;
+}
+html{
+    font-size: 15px;
+}
+//header
+@import "header";
+//info section
+@import"info";
+//Testimonial
+@import"testimonial";
+//image
+@import"image";
+//fotter
+@import"fotter";
